@@ -1,3 +1,22 @@
+## clone git repo with CLI
+
+Commands:
+  clone <source> [destination]  clone a repository into a newly created directory
+
+Sample
+
+```
+npx https://github.com/gengjiawen/git-repo-cli clone nodejs/gyp-next#v0.9.1 ./gyp
+```
+
+#### repository
+The shorthand repository string to download the repository from:
+
+- **GitHub** - `github:owner/name` or simply `owner/name`
+- **GitLab** - `gitlab:owner/name`
+- **Bitbucket** - `bitbucket:owner/name`
+
+
 ### Setup
 
 ```

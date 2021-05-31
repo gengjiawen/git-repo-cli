@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const program = require('commander')
+const download = require('download-git-repo')
 
 program
   .version(require('../package.json').version)
